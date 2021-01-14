@@ -1,5 +1,4 @@
-# Disaster Response Pipeline Project
-# (Udacity - Data Scientist Nanodegree Program)
+# Disaster Response Pipeline Project (Udacity - Data Scientist Nanodegree Program)
 ## Table of Contents
 1. [Introduction](https://github.com/louisteo9/udacity-disaster-response-pipeline#introduction)
 2. [File Descriptions](https://github.com/louisteo9/udacity-disaster-response-pipeline#file-descriptions)
