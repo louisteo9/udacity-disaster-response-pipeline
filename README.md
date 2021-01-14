@@ -1,2 +1,2 @@
-# udacity-disaster-response-pipeline
-Udacity Disaster Response Pipeline
+# Disaster Response Pipeline Project (Udacity - Data Scientist Nanodegree Program)
+
