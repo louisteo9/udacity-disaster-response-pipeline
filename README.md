@@ -1,11 +1,11 @@
 # Disaster Response Pipeline Project (Udacity - Data Scientist Nanodegree Program)
 ## Table of Contents
-1. Introduction
-2. File Descriptions
-3. Installations
-4. Instruction
-5. Acknowledgements
-6. Screenshots
+1. [Introduction](https://github.com/louisteo9/udacity-disaster-response-pipeline#introduction)
+2. [File Descriptions](https://github.com/louisteo9/udacity-disaster-response-pipeline#file-descriptions)
+3. [Installation](https://github.com/louisteo9/udacity-disaster-response-pipeline#installation)
+4. [Instructions](https://github.com/louisteo9/udacity-disaster-response-pipeline#instructions)
+5. [Acknowledgements](https://github.com/louisteo9/udacity-disaster-response-pipeline#acknowledgements)
+6. [Screenshots](https://github.com/louisteo9/udacity-disaster-response-pipeline#screenshots)
 
 ## Introduction
 This project is part of the Udacity's Data Scientist Nanodegree Program in collaboration with [Figure Eight](https://www.figure-eight.com/).
