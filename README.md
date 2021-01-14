@@ -3,7 +3,7 @@
 1. Introduction
 2. File Descriptions
 3. Installations
-4. Instructions
+4. Instruction
 5. Acknowledgements
 6. Screenshots
 
@@ -31,8 +31,8 @@ train_classifier.py - ML pipeline used to load cleaned data, train model and sav
 classifier.pkl - pickle file contains trained model.
 ML Pipeline Preparation.ipynb - Jupyter Notebook used to prepare ML pipeline.
 
-## Installations
-There should be no extra libraries required to install apart from those come together in Anaconda distribution. There should be no issue to run the codes using Python 3.5 and above.
+## Installation
+There should be no extra libraries required to install apart from those coming together with Anaconda distribution. There should be no issue to run the codes using Python 3.5 and above.
 
 ## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
