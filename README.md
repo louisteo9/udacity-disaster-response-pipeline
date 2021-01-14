@@ -16,20 +16,20 @@ This project includes a web application where disaster response worker can input
 
 ## File Descriptions
 ### Folder: app
-run.py - python script to launch web application.
+**run.py** - python script to launch web application.<br/>
 Folder: templates - web dependency files (go.html & master.html) required to run the web application.
 
 ### Folder: data
-disaster_messages.csv - real messages sent during disaster events (provided by Figure Eight). 
-disaster_categories.csv - categories of the messages
-process_data.py - ETL pipeline used to load, clean, extract feature and store data in SQLite database.
-ETL Pipeline Preparation.ipynb - Jupyter Notebook used to prepare ETL pipeline.
-DisasterResponse.db - cleaned data stored in SQlite database.
+**disaster_messages.csv** - real messages sent during disaster events (provided by Figure Eight)<br/>
+**disaster_categories.csv** - categories of the messages<br/>
+**process_data.py** - ETL pipeline used to load, clean, extract feature and store data in SQLite database<br/>
+**ETL Pipeline Preparation.ipynb** - Jupyter Notebook used to prepare ETL pipeline<br/>
+**DisasterResponse.db** - cleaned data stored in SQlite database
 
 ### Folder: models
-train_classifier.py - ML pipeline used to load cleaned data, train model and save trained model as pickle (.pkl) file for later use.
-classifier.pkl - pickle file contains trained model.
-ML Pipeline Preparation.ipynb - Jupyter Notebook used to prepare ML pipeline.
+**train_classifier.py** - ML pipeline used to load cleaned data, train model and save trained model as pickle (.pkl) file for later use<br/>
+**classifier.pkl** - pickle file contains trained model<br/>
+**ML Pipeline Preparation.ipynb** - Jupyter Notebook used to prepare ML pipeline
 
 ## Installation
 There should be no extra libraries required to install apart from those coming together with Anaconda distribution. There should be no issue to run the codes using Python 3.5 and above.
