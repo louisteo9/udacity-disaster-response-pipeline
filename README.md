@@ -68,6 +68,5 @@ There should be no extra libraries required to install apart from those come tog
 ![image](https://user-images.githubusercontent.com/47262286/104581701-e82a3f80-5699-11eb-8692-2556d3995a75.png)
 ![image](https://user-images.githubusercontent.com/47262286/104581849-1c056500-569a-11eb-890d-50ff9493756f.png)
 
-6. Run run.py in app's directory to run web app
-
+6. Run run.py in app's directory to run web app<br/>
 ![image](https://user-images.githubusercontent.com/47262286/104581902-2d4e7180-569a-11eb-8df3-536f98e6f26c.png)
