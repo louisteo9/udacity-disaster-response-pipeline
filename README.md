@@ -52,7 +52,7 @@ There should be no extra libraries required to install apart from those coming t
 * [Figure Eight](https://www.figure-eight.com/) for providing dataset to train our model.
 
 ## Screenshots
-1. main page shows the overview of Training Dataset & distribution of message categories
+1. Main page shows the Overview of Training Dataset & Distribution of Message Categories
 ![image](https://user-images.githubusercontent.com/47262286/104581402-7ce06d80-5699-11eb-99d4-684ec07feb0a.png)
 
 2. Enter message and click 'Classify Message'
