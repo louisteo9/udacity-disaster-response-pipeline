@@ -53,13 +53,20 @@ There should be no extra libraries required to install apart from those come tog
 
 ## Screenshots
 1. main page shows the overview of Training Dataset & distribution of message categories
+![image](https://user-images.githubusercontent.com/47262286/104581402-7ce06d80-5699-11eb-99d4-684ec07feb0a.png)
 
 2. Enter message and click 'Classify Message'
+![image](https://user-images.githubusercontent.com/47262286/104581479-9aadd280-5699-11eb-905b-d26235333360.png)
 
 3. After clicking 'Classify Message', we can see the category(ies) of which the message is classified to , highlighted in green
+![image](https://user-images.githubusercontent.com/47262286/104581568-b87b3780-5699-11eb-8605-8b224a2186e5.png)
 
 4. Run process_data.py for ETL pipeline
+![image](https://user-images.githubusercontent.com/47262286/104581657-d8aaf680-5699-11eb-8022-65335afcfbd3.png)
 
 5. Run train_classifier.py for ML pipeline
+![image](https://user-images.githubusercontent.com/47262286/104581701-e82a3f80-5699-11eb-8692-2556d3995a75.png)
+![image](https://user-images.githubusercontent.com/47262286/104581849-1c056500-569a-11eb-890d-50ff9493756f.png)
 
 6. Run run.py in app's directory to run web app
+![image](https://user-images.githubusercontent.com/47262286/104581902-2d4e7180-569a-11eb-8df3-536f98e6f26c.png)
