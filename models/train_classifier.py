@@ -29,7 +29,7 @@ def load_data(database_filepath):
     category_names - category name for y
     """
     engine = create_engine('sqlite:///' + database_filepath)
-    df = pd.read_sql_table(database_filepath+'_table', engine)
+    df = pd.read_sql_table('DisasterResponse_table', engine)
     
     # drop 'child_alone' column as it has only 0 (ZERO) values - as per our jupyter Notebook analysis
     df = df.drop('child_alone', axis = 1)
