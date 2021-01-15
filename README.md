@@ -53,20 +53,21 @@ There should be no extra libraries required to install apart from those coming t
 
 ## Screenshots
 1. Main page shows the Overview of Training Dataset & Distribution of Message Categories
-![image](https://user-images.githubusercontent.com/47262286/104581402-7ce06d80-5699-11eb-99d4-684ec07feb0a.png)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/1.%20main%20page.JPG)
 
 2. Enter message and click 'Classify Message'
-![image](https://user-images.githubusercontent.com/47262286/104581479-9aadd280-5699-11eb-905b-d26235333360.png)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/2.%20enter%20msg%20click%20classify.JPG)
 
 3. After clicking 'Classify Message', we can see the category(ies) of which the message is classified to , highlighted in green
-![image](https://user-images.githubusercontent.com/47262286/104581568-b87b3780-5699-11eb-8605-8b224a2186e5.png)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/3.%20classify%20result.JPG)
 
 4. Run process_data.py for ETL pipeline
-![image](https://user-images.githubusercontent.com/47262286/104581657-d8aaf680-5699-11eb-8022-65335afcfbd3.png)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/4.%20run%20process_data.JPG)
 
 5. Run train_classifier.py for ML pipeline
-![image](https://user-images.githubusercontent.com/47262286/104581701-e82a3f80-5699-11eb-8692-2556d3995a75.png)
-![image](https://user-images.githubusercontent.com/47262286/104581849-1c056500-569a-11eb-890d-50ff9493756f.png)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/5.%20run%20train_classifier_1_rev1.JPG)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/5.%20run%20train_classifier_2_rev1.JPG)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/5.%20run%20train_classifier_3_rev1.JPG)
 
 6. Run run.py in app's directory to run web app<br/>
-![image](https://user-images.githubusercontent.com/47262286/104581902-2d4e7180-569a-11eb-8df3-536f98e6f26c.png)
+![image](https://github.com/louisteo9/udacity-disaster-response-pipeline/blob/main/screenshots/6.%20run%20app.JPG)
