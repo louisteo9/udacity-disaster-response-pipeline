@@ -72,7 +72,7 @@ def build_model(clf = AdaBoostClassifier()):
     clf - classifier model (If none is inputted, the function will use default 'AdaBoostClassifier' model) 
     
     OUTPUT:
-    pipeline = ML model pipeline
+    cv = ML model pipeline after performing grid search
     """
     pipeline = Pipeline([
         ('features', FeatureUnion([
@@ -84,7 +84,15 @@ def build_model(clf = AdaBoostClassifier()):
         ('clf', MultiOutputClassifier(clf))
     ])
     
-    return pipeline
+    parameters = {
+        'clf__estimator__learning_rate':[0.5, 1.0],
+        'clf__estimator__n_estimators':[10,20]
+    
+    }
+        
+    cv = GridSearchCV(pipeline, param_grid=parameters, cv=5, n_jobs=-1, verbose=3) 
+    
+    return cv
     
 def evaluate_model(model, X_test, Y_test, category_names):
     """
