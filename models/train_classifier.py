@@ -31,12 +31,6 @@ def load_data(database_filepath):
     engine = create_engine('sqlite:///' + database_filepath)
     df = pd.read_sql_table('DisasterResponse_table', engine)
     
-    # drop 'child_alone' column as it has only 0 (ZERO) values - as per our jupyter Notebook analysis
-    df = df.drop('child_alone', axis = 1)
-    
-    # As per our Jupyter Notebook analysis, 'related' column has max value of 2, it could be error
-    # therefore, we will replace '2' with '1'
-    df['related'] = df['related'].map(lambda x: 1 if x==2 else x)
     X = df['message']
     y = df.iloc[:,4:]
     category_names = y.columns
